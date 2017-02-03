@@ -1,0 +1,228 @@
+{
+	"Global": [
+		/* Global */
+		{ "selector": ".site-container", "type": "text", "label": "Default" },
+		{ "selector": ".site-container", "type": "color", "label": "Default" },
+		/* Link */
+		{ "selector": ".site-container a", "type": "text", "label": "Default link" },
+		{ "selector": ".site-container a", "type": "color", "label": "Default link" },
+		{ "selector": ".site-container a:hover", "type": "color", "label": "Default link" },
+		{}
+	],
+	"Hero Area": [
+		/* Title */
+		{ "selector": ".banner-top h1.desktop-headline, .banner-top h2.desktop-headline", "type": "text", "label": "Title" },
+		/* Title Mobile*/
+		{ "selector": ".banner-top h1.mobile-headline, .banner-top h2.mobile-headline", "type": "text", "label": "Title Mobile" },
+		/*Title color*/
+		{ "selector": ".banner-top h1, .banner-top h2", "type": "color", "label": "Title color" },
+		/*Content*/
+		{ "selector": ".banner-top p", "type": "text", "label": "Content" },
+		/*Content color*/
+		{ "selector": ".banner-top p", "type": "color", "label": "Content color" },
+		/*Button*/
+		{ "selector": ".book-tour-wrapper .btn-default, .book-tour-wrapper .dropdown-menu, .book-btn-wrapper .dropdown-menu, .site-container .hero-elements-wrapper .btn-group.book-btn-wrapper, .banner-top .book-btn-wrapper, .banner-bottom .book-tour-wrapper, .site-container .book-tour-wrapper", "type": "text", "label": "CTA Button", "important": true },
+		{ "selector": ".book-btn-wrapper .dropdown-menu .peek-book-button-flat, .book-tour-wrapper .dropdown-menu .peek-book-button-flat, .book-tour-wrapper .btn-default.book-btn2-inner, .book-tour-wrapper .xola-custom.book-btn2, .content .book-tour-wrapper a.book-btn2, .content .book-tour-wrapper a.book-btn2:hover, .book-tour-wrapper .dropdown-menu .giso_btn, .book-tour-wrapper .dropdown-menu .xola-custom, .book-tour-wrapper .dropdown-menu a:link, .content .book-tour-wrapper .dropdown-menu a:hover, .book-tour-wrapper .dropdown-menu a:active, .book-tour-wrapper .dropdown-menu a:visited, .book-tour-wrapper .btn-default.book-btn, .book-btn-wrapper .dropdown-menu .giso_btn, .book-btn-wrapper .dropdown-menu .xola-custom, .book-btn-wrapper .dropdown-menu a, .book-btn-wrapper .dropdown-menu a:hover, .book-btn-wrapper .btn-default.book-btn, .book-btn-wrapper .xola-custom.book-btn, .book-tour-wrapper .xola-custom.book-btn, .banner-top a.book-btn, .content .book-tour-wrapper a.book-btn, .content .book-tour-wrapper a.book-btn:hover", "type": "color", "label": "CTA Button link" },
+		{ "selector": ".banner-top .book-btn, .banner-bottom .book-btn, .site-inner .book-btn", "type": "border-color", "label": "CTA Button border", "important": true },
+		{}
+	],
+	"Featured area": [	
+		/* Title */
+		{ "selector": ".featured-tours h2", "type": "text", "label": "Featured Title" },
+		{ "selector": ".featured-tours h2 hr", "type": "background-color", "label": "Title line" },
+		{ "selector": ".featured-tours h2", "type": "color", "label": "Title" },
+		/*Tile Title*/
+		{ "selector": ".featured-tours .tour strong", "type": "text", "label": "Tile Title" },
+		{ "selector": ".featured-tours .tour strong, .featured-tours .tour strong a:link, .featured-tours .tour strong a:active, .featured-tours .tour strong a:visited", "type": "color", "label": "Tile Title" },
+		{ "selector": ".featured-tours .tour strong a:hover", "type": "color", "label": "Tile Title" },
+		/* Title-3 */
+		{ "selector": ".featured-tours-2 .name .xola-custom, .featured-tours-2 .name, .featured-tours-2 .name strong", "type": "text", "label": "Front-3 Tile Title" },
+		{ "selector": ".featured-tours-2 .txt-button-tour, .featured-tours-2 .name .xola-custom, .featured-tours-2 .name strong", "type": "color", "label": "Front-3 Tile Title" },
+		/*Item Content*/
+		{ "selector": ".tour", "type": "color", "label": "Content" },
+		/*Button*/
+		{ "selector": ".view-dropdown-tour-btn .dropdown-menu a.peek-book-button-flat.peek-booking-button-initialized, .featured-tours-2 .txt-button-tour, .view-dropdown-tour-btn .dropdown-menu, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .btn-default, .site-container .featured-tours .view-tour-btn .xola-custom, .site-container .featured-tours .view-tour-btn a, .site-container .fluid-boxes .view-tour-btn a", "type": "text", "label": "Button" },
+		{ "selector": ".featured-tours-2 .txt-button-tour", "type": "text", "label": "Front-3 Button" },
+		{ "selector": ".view-dropdown-tour-btn .dropdown-menu .peek-book-button-flat, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .open .btn-default, .site-container .featured-tours-2 .txt-button-tour, .view-dropdown-tour-btn .dropdown-menu .xola-custom, .view-dropdown-tour-btn .dropdown-menu a, .view-dropdown-tour-btn .dropdown-menu a:hover, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .btn-default:hover, .site-container .featured-tours .view-tour-btn .xola-custom:hover, .site-container .featured-tours .view-tour-btn a:hover", "type": "color", "label": "Button link", "important": true },
+		/*Tour links*/
+		{ "selector": ".content h3.link-tours-heading", "type": "text", "label": "Tour links Heading" },
+		{ "selector": ".content h3.link-tours-heading", "type": "color", "label": "Tour links Heading" },
+		{ "selector": ".link-tours .link-tour-wrapper", "type": "text", "label": "Tour link Title" },
+		{ "selector": ".link-tours .link-tour-wrapper", "type": "color", "label": "Tour link Title" },
+		{}
+	],
+	"Testimonials": [	
+		/* Title */
+		{ "selector": ".testimonials h3", "type": "text", "label": "Testimonials Title" },
+		{ "selector": ".testimonials h3 hr", "type": "background-color", "label": "Title line" },
+		{ "selector": ".testimonials strong, .testimonials .txt-testimonial .name", "type": "text", "label": "Tile Title" },
+		{ "selector": ".testimonials strong", "type": "color", "label": "Tile Title" },
+		/*Item Content*/
+		{ "selector": ".testimonials p, .testimonials .txt-testimonial, .testimonials .txt-testimonial .read-test", "type": "text", "label": "Content" },
+		{ "selector": ".testimonials p, .testimonials .txt-testimonial", "type": "color", "label": "Content" },
+		{}
+	],
+	"Multi-Column Area": [
+    	/*Subheading*/
+    	{ "selector": ".front-page-section .multi-column-area h2, .multi-column-area .container h2", "type": "text", "label": "Heading" },
+    	{ "selector": ".front-page-section .multi-column-area h2, .multi-column-area .container h2", "type": "color", "label": "Heading" },
+    	{ "selector": ".front-page-section .multi-column-area h3, .multi-column-area .container h3", "type": "text", "label": "Subheading" },
+    	{ "selector": ".front-page-section .multi-column-area h3, .multi-column-area .container h3", "type": "color", "label": "Subheading" },
+    	{ "selector": ".front-page-section .multi-column-area hr, .multi-column-area .container hr", "type": "background-color", "label": "Line under subheading" },
+    	{}
+    ],
+    "Fluid Boxes": [
+    	/*Content*/
+    	{ "selector": ".content .fluid-boxes h2", "type": "color", "label": "Heading" },
+    	{ "selector": ".site-inner .content .fluid-boxes p", "type": "color", "label": "Paragraph" },
+    	{ "selector": ".site-container .container-fluid.fluid-boxes .view-tour-btn a:link, .site-container .container-fluid.fluid-boxes .view-tour-btn a:active, .site-container .container-fluid.fluid-boxes .view-tour-btn a:visited", "type": "color", "label": "Button link" },
+    	{ "selector": ".site-container .container-fluid.fluid-boxes .view-tour-btn a:hover", "type": "color", "label": "Button link" },
+    	{}
+    ],
+	"Menu – Primary": [
+		/* Top items */
+		{ "selector": ".main-nav-wrapper .genesis-nav-menu .xola-book-btn div, .site-header, .main-nav-wrapper .genesis-nav-menu a", "type": "text", "label": "Top item" },
+		{ "selector": ".main-nav-wrapper .genesis-nav-menu .xola-book-btn div, .main-nav-wrapper .genesis-nav-menu a, .main-nav-wrapper .genesis-nav-menu span", "type": "color", "label": "Top item" },
+		{ "selector": ".main-nav-wrapper .genesis-nav-menu a:hover, .main-nav-wrapper .genesis-nav-menu span:hover", "type": "color", "label": "Top item" },
+		/* Sub items */
+		{ "selector": ".main-nav-wrapper .genesis-nav-menu .sub-menu a", "type": "text", "label": "Submenu item" },
+		{ "selector": ".main-nav-wrapper .genesis-nav-menu .sub-menu a", "type": "color", "label": "Submenu item" },
+		{ "selector": ".main-nav-wrapper .genesis-nav-menu .sub-menu a:hover", "type": "color", "label": "Submenu item" },
+		{ "selector": ".site-container .genesis-nav-menu .rezdy-book-btn a, .site-container .genesis-nav-menu .trekksoft-book-btn a, .site-container .genesis-nav-menu .fareharbor-book-btn a, .site-container .genesis-nav-menu .xola-book-btn div, .site-container .genesis-nav-menu .peek-book-btn a, .site-container .genesis-nav-menu .giso-book-btn a, .site-container .genesis-nav-menu .book-btn a", "type": "border-color", "label": "CTA Button border", "important": true },
+		{}
+	],
+	"Menu – Secondary": [
+		/* Top items */
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu a", "type": "text", "label": "Top item" },
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu a, .secondary-nav-wrapper .genesis-nav-menu span", "type": "color", "label": "Top item" },
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu a:hover, .secondary-nav-wrapper .genesis-nav-menu span:hover", "type": "color", "label": "Top item" },
+		/* Sub items */
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu .sub-menu a", "type": "text", "label": "Submenu item" },
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu .sub-menu a", "type": "color", "label": "Submenu item" },
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu .sub-menu a:hover", "type": "color", "label": "Submenu item" },
+		{ "selector": ".secondary-nav-wrapper .genesis-nav-menu .sub-menu, .secondary-nav-wrapper .genesis-nav-menu .sub-menu a", "type": "border-color", "label": "Submenu border" },
+		{}
+	],
+	"Menu – Mobile": [
+		/* Top items */
+		{ "selector": ".site-container .mobile-nav .xola-book-btn div, .navbar-header .navbar-toggle, .navbar-collapse .mobile-nav a, .navbar-collapse .mobile-nav .dropdown.open a", "type": "text", "label": "Top item" },
+		{ "selector": ".navbar-collapse .mobile-nav a:link, .navbar-collapse .mobile-nav a:active, .navbar-collapse .mobile-nav a:visited, .navbar-collapse .mobile-nav .dropdown.open a", "type": "color", "label": "Top item" },
+		{ "selector": ".navbar-collapse .mobile-nav a:hover", "type": "color", "label": "Top item", "important": true },
+		/* Sub items */
+		{ "selector": ", .navbar-collapse .mobile-nav .sub-menu.dropdown-menu a", "type": "text", "label": "Submenu item" },
+		{ "selector": ".navbar-collapse .mobile-nav .sub-menu.dropdown-menu a:link, .navbar-collapse .mobile-nav .sub-menu.dropdown-menu a:active, .navbar-collapse .mobile-nav .sub-menu.dropdown-menu a:visited", "type": "color", "label": "Submenu item" },
+		{ "selector": ".navbar-collapse .mobile-nav .sub-menu.dropdown-menu a:hover", "type": "color", "label": "Submenu item", "important": true },
+		{}
+	],
+	"Search Form": [
+		/* Social links */
+		{ "selector": ".above-header .btn.btn-search, .above-header .social-wrapper a", "type": "text", "label": "Above header Form" },
+		{ "selector": ".above-header .btn.btn-search, .above-header .social-wrapper a", "type": "color", "label": "Above header Form" },
+		{ "selector": ".above-header .main-searchform input[type='text']", "type": "text", "label": "Input field" },
+		{ "selector": ".above-header .main-searchform input[type='text']", "type": "color", "label": "Input field" },
+		{ "selector": ".above-header .search-form-wrapper", "type": "border-color", "label": "Above header Search input border" },
+		
+		{ "selector": ".site-footer .btn.btn-search, .site-footer .social-wrapper a", "type": "text", "label": "Footer area Form" },
+		{ "selector": ".site-footer .btn.btn-search, .site-footer .social-wrapper a", "type": "color", "label": "Footer area Form" },
+		{ "selector": "footer .main-searchform input[type='text']", "type": "text", "label": "Input" },
+		{ "selector": "footer .main-searchform input[type='text']", "type": "color", "label": "Input" },
+		{ "selector": ".site-footer .search-form-wrapper", "type": "border-color", "label": "Footer Search input border" },
+		{}
+	],
+	"Gravity Form": [
+		/* Title and description*/
+		{ "selector": ".gform_heading .gform_title", "type": "text", "label": "Title" },
+		{ "selector": ".gform_heading .gform_title", "type": "color", "label": "Title" },
+		{ "selector": ".gform_heading .gform_description", "type": "text", "label": "Description" },
+		{ "selector": ".gform_heading .gform_description", "type": "color", "label": "Description" },
+		/* Label */
+		{ "selector": ".gform_fields label", "type": "text", "label": "Label" },
+		{ "selector": ".gform_fields label", "type": "color", "label": "Label" },
+		/*  Input */
+		{ "selector": ".ginput_container input[type='text'], .ginput_container textarea, .btn.dropdown-toggle", "type": "text", "label": "Form" },
+		{ "selector": ".ginput_container input[type='text'], .ginput_container textarea, .btn.dropdown-toggle", "type": "color", "label": "Form" },
+		{ "selector": ".ginput_container input[type='text'], .ginput_container textarea, .btn.dropdown-toggle", "type": "background-color", "label": "Form" },
+		/* Focus */
+		{ "selector": ".ginput_container input[type='text']:focus, .ginput_container textarea:focus, .btn.dropdown-toggle:active", "type": "background-color", "label": "Form" },
+		/*  Submit */
+		{ "selector": ".gform_footer input[type='submit']", "type": "text", "label": "Submit" },
+		{}
+	],
+	"Subscribe Gravity Form": [
+		/* Title and description*/
+		{ "selector": ".subscribe .gform_heading .gform_title", "type": "text", "label": "Title" },
+		{ "selector": ".subscribe .gform_heading .gform_title", "type": "color", "label": "Title" },
+		{ "selector": ".subscribe .gform_heading .gform_description", "type": "text", "label": "Description" },
+		{ "selector": ".subscribe .gform_heading .gform_description", "type": "color", "label": "Description" },
+		/*  Input */
+		{ "selector": ".subscribe .ginput_container input[type='text']", "type": "text", "label": "Form" },
+		/*Submit*/
+		{ "selector": ".subscribe .gform_footer input[type='submit']", "type": "text", "label": "Submit" },
+		{}
+	],
+	"Entry – Headings": [
+		/* Headers */
+		{ "selector": ".content h1", "type": "text", "label": "Heading 1" },
+		{ "selector": ".content h1", "type": "color", "label": "Heading 1" },
+		{ "selector": ".content h2, .reasons h2, .widget-item h2", "type": "text", "label": "Heading 2" },
+		{ "selector": ".content h2, .reasons h2, .widget-item h2", "type": "color", "label": "Heading 2" },
+		{ "selector": ".blog-left-col h2.entry-title", "type": "text", "label": "Blog Heading 2" },
+		{ "selector": ".blog-left-col h2.entry-title a:link, .blog-left-col h2.entry-title a:hover, .blog-left-col h2.entry-title a:active, .blog-left-col h2.entry-title a:visited", "type": "color", "label": "Blog Heading 2" },
+		{ "selector": ".content h3, .reasons h3, .widget-item h3", "type": "text", "label": "Heading 3" },
+		{ "selector": ".content h3, .widget-item h3", "type": "color", "label": "Heading 3" },
+		{ "selector": ".blog-left-col h3.entry-title", "type": "text", "label": "Blog Heading 3" },
+		{ "selector": ".blog-left-col h3.entry-title a:link, .blog-left-col h3.entry-title a:hover, .blog-left-col h3.entry-title a:active, .blog-left-col h3.entry-title a:visited", "type": "color", "label": "Blog Heading 3" },
+		{ "selector": ".content h4, .widget-item h4", "type": "text", "label": "Heading 4" },
+		{ "selector": ".content h4, .widget-item h4", "type": "color", "label": "Heading 4" },
+		{ "selector": ".content h5, .widget-item h5", "type": "text", "label": "Heading 5" },
+		{ "selector": ".content h5, .widget-item h5", "type": "color", "label": "Heading 5" },
+		{ "selector": ".content h6, .widget-item h6", "type": "text", "label": "Heading 6" },
+		{ "selector": ".content h6, .widget-item h6", "type": "color", "label": "Heading 6" },
+		{}
+	],
+	"Entry – Content": [
+		/* Bottom Border */
+		{ "selector": ".itinerary .item, .section-item .item", "type": "border-bottom-color", "label": "Section" },
+		{ "selector": ".content h3 hr, .left-vertical-separator", "type": "background-color", "label": "Separator line" },
+		/* Paragraph */
+		{ "selector": ".site-inner .content p, .site-inner .content p a, .widget-item p, .widget-item a", "type": "text", "label": "Paragraph" },
+		{ "selector": ".site-inner .content p", "type": "color", "label": "Paragraph" },
+		 /* Links set for content.*/
+		{ "selector": ".site-inner .content a, .widget-item a", "type": "color", "label": "Link" },
+		{ "selector": ".site-inner .content .read-more:link, .site-inner .content .read-more:active, .site-inner .content .read-more:visited, .site-inner .content a:hover, .widget-item a:hover", "type": "color", "label": "Link" },
+		 /*Classic Details List, Lists */ 
+		 { "selector": ".section-item .details-row-wrapper li, .section-item .classic-details-list li, .section-item .td-list li, .entry-content li, .entry-content li p, .widget-item li, .c-editor li, .c-editor li h3, .c-editor li h4, .c-editor li h5, .c-editor li h6, .td-list li .info-wrapper", "type": "text", "label": "List" },
+		{ "selector": ".section-item .classic-details-list li, .section-item .td-list li, .content li, .content li p, .c-editor li, .c-editor li h3, .c-editor li h4, .c-editor li h5, .c-editor li h6, .td-list li .info-wrapper", "type": "color", "label": "List" },
+		/*Accent Color option*/
+		{ "selector": ".testimonials-slider .txt-testimonial .read-test:link, .testimonials-slider .txt-testimonial .read-test:hover, .testimonials-slider .txt-testimonial .read-test:active, .testimonials-slider .txt-testimonial .read-test:visited, .testimonials-slider .txt-testimonial .name, .testimonials-slider-wrapper .testimonials-slider:before, .testimonials-slider-wrapper .testimonials-slider:after, .section-item .details-row-wrapper .details-label, .classic-details-list .details-label i, .classic-itinerary-list .num-wrapper .itinery-num", "type": "color", "label": "Accent Color" },
+		/*Font awesome bullets*/
+		{ "selector": ".content .td-list .info-wrapper:before, .content .td-list span", "type": "background-color", "label": "Font Awesome bullet background" },
+		{ "selector": ".content .td-list .info-wrapper:before, .content .td-list i", "type": "color", "label": "Font Awesome bullet icon" },
+		/*New Lists*/
+		/*{ "selector": ".classic-itinerary-list h5.itinerary-title", "type": "text", "label": "Classic Itinerary List Title" },*/
+		/*{ "selector": ".classic-itinerary-list h5.itinerary-title", "type": "color", "label": "Classic Itinerary List Title" },*/
+		{ "selector": ".classic-itinerary-list .itinery-num", "type": "text", "label": "Ordered List Number" },
+		{ "selector": ".classic-itinerary-list .vert-line, .classic-itinerary-list .top-line, .classic-itinerary-list .bottom-line", "type": "background-color", "label": "List lines color" },
+		 /* Table */
+		{ "selector": ".content .table-bordered, .content .table-bordered tr:first-child", "type": "border-color", "label": "Table" },
+		{ "selector": ".content .table", "type": "text", "label": "Table" },
+		{ "selector": ".content .table", "type": "color", "label": "Table" },
+		 /* Table Heading */
+		{ "selector": ".table th", "type": "text", "label": "Table heading" },
+		{ "selector": ".table th", "type": "color", "label": "Table heading" },
+		{ "selector": ".table th", "type": "background-color", "label": "Table heading" },
+		/* Table Content */
+		{ "selector": ".content .table td:nth-child(3)", "type": "background-color", "label": "Table's 3rd cell" },
+		{ "selector": ".content .table td:nth-child(5)", "type": "background-color", "label": "Table's 5th cell" },
+		{}
+	],
+	"Footer": [
+		/* Ccontent */
+		{ "selector": ".site-container .site-footer", "type": "text", "label": "Footer" },
+		{ "selector": ".site-container .site-footer .footer-nav-wrapper, .site-container .site-footer h4", "type": "text", "label": "Footer Titles and Navigation" },
+		{ "selector": ".site-container .site-footer", "type": "color", "label": "Footer Content" },
+		{ "selector": ".site-container .site-footer a:link, .site-container .site-footer a:active, .site-container .site-footer a:visited", "type": "color", "label": "Footer Link" },
+		{ "selector": ".site-container .site-footer a:hover", "type": "color", "label": "Footer Link" },
+		{}
+	]
+}
