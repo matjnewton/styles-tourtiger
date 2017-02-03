@@ -3,7 +3,7 @@
 Plugin Name: Styles: tourtiger
 Plugin URI: http://stylesplugin.com
 Description: Add Customize options to the <a href="http://wordpress.org/extend/themes/tourtiger" target="_blank">tourtiger theme</a> using the <a href="http://wordpress.org/extend/plugins/styles/" target="_blank">Styles plugin</a>.
-Version: 1.0.01
+Version: 1.0.02
 Author: Paul Clark, 10up, tourtiger
 Author URI: http://pdclark.com
 GitHub Plugin URI: https://github.com/matjnewton/styles-tourtiger
