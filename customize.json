@@ -32,18 +32,18 @@
 		{ "selector": ".featured-tours h2 hr", "type": "background-color", "label": "Title line" },
 		{ "selector": ".featured-tours h2", "type": "color", "label": "Title" },
 		/*Tile Title*/
-		{ "selector": ".featured-tours .tour strong", "type": "text", "label": "Tile Title" },
-		{ "selector": ".featured-tours .tour strong, .featured-tours .tour strong a:link, .featured-tours .tour strong a:active, .featured-tours .tour strong a:visited", "type": "color", "label": "Tile Title" },
-		{ "selector": ".featured-tours .tour strong a:hover", "type": "color", "label": "Tile Title" },
+		{ "selector": ".featured-tours .tour strong .regiondo-button, .featured-tours .tour strong", "type": "text", "label": "Tile Title", "important": true },
+		{ "selector": ".featured-tours .tour strong .regiondo-button, .featured-tours .tour strong, .featured-tours .tour strong a:link, .featured-tours .tour strong a:active, .featured-tours .tour strong a:visited", "type": "color", "label": "Tile Title", "important": true },
+		{ "selector": ".featured-tours .tour strong .regiondo-button:hover, .featured-tours .tour strong a:hover", "type": "color", "label": "Tile Title", "important": true },
 		/* Title-3 */
 		{ "selector": ".featured-tours-2 .name .xola-custom, .featured-tours-2 .name, .featured-tours-2 .name strong", "type": "text", "label": "Front-3 Tile Title" },
 		{ "selector": ".featured-tours-2 .txt-button-tour, .featured-tours-2 .name .xola-custom, .featured-tours-2 .name strong", "type": "color", "label": "Front-3 Tile Title" },
 		/*Item Content*/
 		{ "selector": ".tour", "type": "color", "label": "Content" },
 		/*Button*/
-		{ "selector": ".view-dropdown-tour-btn .dropdown-menu a.peek-book-button-flat.peek-booking-button-initialized, .featured-tours-2 .txt-button-tour, .view-dropdown-tour-btn .dropdown-menu, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .btn-default, .site-container .featured-tours .view-tour-btn .xola-custom, .site-container .featured-tours .view-tour-btn a, .site-container .fluid-boxes .view-tour-btn a", "type": "text", "label": "Button" },
+		{ "selector": ".view-dropdown-tour-btn .dropdown-menu .regiondo-button, .view-dropdown-tour-btn .dropdown-menu a.peek-book-button-flat.peek-booking-button-initialized, .featured-tours-2 .txt-button-tour, .view-dropdown-tour-btn .dropdown-menu, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .btn-default, .site-container .featured-tours .view-tour-btn .xola-custom, .site-container .featured-tours .view-tour-btn a, .site-container .fluid-boxes .view-tour-btn a", "type": "text", "label": "Button" },
 		{ "selector": ".featured-tours-2 .txt-button-tour", "type": "text", "label": "Front-3 Button" },
-		{ "selector": ".view-dropdown-tour-btn .dropdown-menu .peek-book-button-flat, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .open .btn-default, .site-container .featured-tours-2 .txt-button-tour, .view-dropdown-tour-btn .dropdown-menu .xola-custom, .view-dropdown-tour-btn .dropdown-menu a, .view-dropdown-tour-btn .dropdown-menu a:hover, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .btn-default:hover, .site-container .featured-tours .view-tour-btn .xola-custom:hover, .site-container .featured-tours .view-tour-btn a:hover", "type": "color", "label": "Button link", "important": true },
+		{ "selector": ".view-dropdown-tour-btn .dropdown-menu .regiondo-button, .view-dropdown-tour-btn .dropdown-menu .peek-book-button-flat, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .open .btn-default, .site-container .featured-tours-2 .txt-button-tour, .view-dropdown-tour-btn .dropdown-menu .xola-custom, .view-dropdown-tour-btn .dropdown-menu a, .view-dropdown-tour-btn .dropdown-menu a:hover, .site-container .featured-tours .view-dropdown-wrapper .view-dropdown-tour-btn .btn-default:hover, .site-container .featured-tours .view-tour-btn .xola-custom:hover, .site-container .featured-tours .view-tour-btn a:hover", "type": "color", "label": "Button link", "important": true },
 		/*Tour links*/
 		{ "selector": ".content h3.link-tours-heading", "type": "text", "label": "Tour links Heading" },
 		{ "selector": ".content h3.link-tours-heading", "type": "color", "label": "Tour links Heading" },
