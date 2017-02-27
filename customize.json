@@ -80,6 +80,9 @@
     	{}
     ],
 	"Menu – Primary": [
+		/*Secondary Menu*/
+		{ "selector": ".site-container .above-split-bar .motto, .site-container .above-split-bar .phone i, .site-container .above-split-bar a", "type": "color", "label": "Secondary menu item" },
+		{ "selector": ".site-container .above-split-bar a:hover", "type": "color", "label": "Secondary menu item" },
 		/* Top items */
 		{ "selector": ".main-nav-wrapper .genesis-nav-menu .xola-book-btn div, .site-header, .main-nav-wrapper .genesis-nav-menu a", "type": "text", "label": "Top item" },
 		{ "selector": ".main-nav-wrapper .genesis-nav-menu .xola-book-btn div, .main-nav-wrapper .genesis-nav-menu a, .main-nav-wrapper .genesis-nav-menu span", "type": "color", "label": "Top item" },
